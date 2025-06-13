@@ -1,5 +1,18 @@
 body {
+background-color: rgb(73, 219, 68);
+}
 
-background-color: fuchsia;
+header {
+    background-color: chocolate;
+}
 
+nav {
+    background-color: yellow;
+}
+
+main {
+    background-color: lightsalmon;
+}
+footer {
+    background-color: lightblue;
 }
