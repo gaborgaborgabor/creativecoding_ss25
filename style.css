@@ -1,18 +1,11 @@
-body {
-background-color: rgb(73, 219, 68);
-}
-
-header {
-    background-color: chocolate;
-}
-
-nav {
-    background-color: yellow;
-}
-
-main {
-    background-color: lightsalmon;
-}
-footer {
-    background-color: lightblue;
+section {
+    background-color: orange;
+    width: 30vw;
+    height: 30vh;
+    border: solid 0.2vw rgb(209, 129, 0);
+    margin: 1vw; /* outer space */
+    padding: 2vw; /* inner space */
+    box-shadow: 0.2vw 0.2vw 0.5vw rgba(166, 93, 2, 0.5);
+    border-radius: 1vw;
+    color: white;
 }
