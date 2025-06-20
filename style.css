@@ -1,24 +1,21 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: white;
+    padding: 5vw;
 }
 
-section {
-    color: green;
+.overlay {
+    /* background-color: orange; */
+    background-image: url(bkgr.gif);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+     
 }
 
-.bkgr_color1 {  background-color: #ff9500;}
-.bkgr_color2 {  background-color: #4b4b4b;}
 
-.shadow1 {  box-shadow: 0px 0px 10px rgba(176, 101, 40, 0.5);}
-.shadow2 {  box-shadow: 0px 0px 20px rgba(172, 172, 172, 0.5);}
 
-.height10vh {  height: 10vh;}
-.height20vh {  height: 20vh;}
-.height30vh {  height: 30vh;}
 
-#myfirstid {
-    color: red;
-}
+
+
