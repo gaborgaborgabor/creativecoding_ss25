@@ -3,31 +3,25 @@ html,body {
     height: 100%;
 }
 
-
 body {
-
-    padding: 0;
+    padding: 5vw;
     margin: 0;
-    background-image: url(woman1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 
 }
 
 .box {
     background-color: orange;
     display: inline-block;
-    width: 5vw;
-    height: 5vw;
-    opacity: 1;
-    transition: all;
-    transition-duration: 6s;
-    margin: 0;
+    width: 20vw;
+    height: 20vw;
+    box-shadow: 0 0 20px 0 #9a6200;
+    transition: all 0.3s ease-in-out;
+
 }
 
 .box:hover {
-        opacity: 0;
-        transition: all;
-        transition-duration: 0.3s;
+        box-shadow: 5px 20px 40px 0 #f5ad32;
+        transition: all 1s ease-in-out;
+        transform: translate3d(0,-2vh,0) perspective(2vw) rotateY(45deg) rotateZ(-80deg)  ; /* x,y,z */
+        /* perspective(2vw) is the distance from the viewer to the object */
 }
